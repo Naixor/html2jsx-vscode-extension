@@ -1,0 +1,62 @@
+{
+    "name": "html2jsx-vscode-extension",
+    "displayName": "html2jsx-vscode-extension",
+    "description": "Convert html to jsx",
+    "keywords": [
+        "jsx",
+        "html",
+        "convert",
+        "tsx",
+        "vscode",
+        "extension"
+    ],
+    "icon": "logo.png",
+    "version": "0.1.1",
+    "publisher": "Stormspirit",
+    "homepage": "https://github.com/Naixor/html2jsx-vscode-extension",
+    "bugs": {
+        "url": "https://github.com/Naixor/html2jsx-vscode-extension/issues",
+        "email": "hongyesoftware@gmail.com"
+    },
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.html2jsx"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.html2jsx",
+                "title": "HTML to JSX"
+            }
+        ],
+        "configuration": {
+            "title": "HTML2JSX config",
+            "properties": {
+                "html2jsx.createClass": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "CreateClass for *.jsx or extends React.Compoennt for *.tsx" 
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    },
+    "dependencies": {
+        "htmltojsx": "^0.2.5",
+        "jsxformat": "0.0.10"
+    }
+}
