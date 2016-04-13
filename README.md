@@ -2,11 +2,11 @@
 
 ## How to use
 
-![](./images/1.gif)
+![](https://raw.githubusercontent.com/Naixor/html2jsx-vscode-extension/master/images/1.gif)
 
 ## Configuration
 
-![](./images/config.png)
+![](https://raw.githubusercontent.com/Naixor/html2jsx-vscode-extension/master/images/config.png)
 
 ### createClass
 
@@ -14,4 +14,4 @@
 
 #### If html2jsx.createClasss is true, it will be work like below.
 
-![](images/2.gif)
+![](https://raw.githubusercontent.com/Naixor/html2jsx-vscode-extension/master/images/2.gif)
