@@ -11,7 +11,7 @@
         "extension"
     ],
     "icon": "logo.png",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "Stormspirit",
     "homepage": "https://github.com/Naixor/html2jsx-vscode-extension",
     "bugs": {
